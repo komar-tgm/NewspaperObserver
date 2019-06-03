@@ -15,4 +15,9 @@ public class Newspaper {
         this.headline=headline;
         this.context=context;
     }
+
+    @Override
+    public String toString(){
+        return this.name+" "+this.headline+" "+this.context;
+    }
 }

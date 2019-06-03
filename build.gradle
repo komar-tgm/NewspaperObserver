@@ -1,5 +1,7 @@
 plugins {
     id 'java'
+    id 'application'
+    id 'idea'
 }
 
 version '1.0-SNAPSHOT'
@@ -13,3 +15,4 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+mainClassName = 'newspaper.Main'
