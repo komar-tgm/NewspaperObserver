@@ -10,4 +10,9 @@ public class Newspaper {
         this.headline="";
         this.context="";
     }
+    public void setAll(String name,String headline,String context){
+        this.name=name;
+        this.headline=headline;
+        this.context=context;
+    }
 }
